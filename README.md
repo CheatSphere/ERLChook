@@ -9,8 +9,11 @@ You can find the changelogs in the CSphere discord, which you can find at https:
 ## Credits
 
 Main dev: Miwowa1337
+
 Ownership: CheatSphere/CSphere
+
 Help with code, ESP: c-28
+
 Original ui lib (ERLChook uses a modded version of it): Obsidian https://github.com/deividcomsono/Obsidian
 
 ## Loadstring
