@@ -410,6 +410,7 @@ do
         self.Library.Options.AccentColor:OnChanged(UpdateTheme)
         self.Library.Options.OutlineColor:OnChanged(UpdateTheme)
         self.Library.Options.FontColor:OnChanged(UpdateTheme)
+    end -- forgot this
 
     function ThemeManager:CreateGroupBox(tab)
         assert(self.Library, "Must set ThemeManager.Library first!")
