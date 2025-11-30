@@ -52,24 +52,16 @@ do
             1,
             { FontColor = "ffffff", MainColor = "161616", AccentColor = "ffffff", BackgroundColor = "0a0a0a", OutlineColor = "232323" },
         },
-        ["Dracula"] = {
-            2,
-            { FontColor = "f8f8f2", MainColor = "44475a", AccentColor = "ff79c6", BackgroundColor = "282a36", OutlineColor = "6272a4" },
-        },
         ["Monokai"] = {
-            3,
+            2,
             { FontColor = "f8f8f2", MainColor = "272822", AccentColor = "f92672", BackgroundColor = "1e1f1c", OutlineColor = "49483e" },
         },
-        ["Gruvbox"] = {
-            4,
-            { FontColor = "ebdbb2", MainColor = "3c3836", AccentColor = "fb4934", BackgroundColor = "282828", OutlineColor = "504945" },
-        },
         ["Solarized"] = {
-            5,
+            3,
             { FontColor = "839496", MainColor = "073642", AccentColor = "cb4b16", BackgroundColor = "002b36", OutlineColor = "586e75" },
         },
         ["Material"] = {
-            6,
+            4,
             { FontColor = "eeffff", MainColor = "212121", AccentColor = "82aaff", BackgroundColor = "151515", OutlineColor = "424242" },
         }
     }
