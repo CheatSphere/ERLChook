@@ -1881,7 +1881,7 @@ end
 
 local CheckIcon = Library:GetIcon("check")
 local ArrowIcon = Library:GetIcon("chevron-up")
-local ResizeIcon = Library:GetIcon("move-diagonal-2")
+local ResizeIcon = Library:GetIcon("move-diagonal")
 local KeyIcon = Library:GetIcon("key")
 local MoveIcon = Library:GetIcon("move")
 
@@ -1892,7 +1892,7 @@ function Library:SetIconModule(module: IconModule)
     -- Top ten fixes 🚀
     CheckIcon = Library:GetIcon("check")
     ArrowIcon = Library:GetIcon("chevron-up")
-    ResizeIcon = Library:GetIcon("move-diagonal-2")
+    ResizeIcon = Library:GetIcon("move-diagonal")
     KeyIcon = Library:GetIcon("key")
     MoveIcon = Library:GetIcon("move")
 end
