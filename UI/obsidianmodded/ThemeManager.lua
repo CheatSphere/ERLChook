@@ -1,4 +1,3 @@
---7
 local cloneref = (cloneref or clonereference or function(instance: any)
     return instance
 end)
@@ -50,15 +49,15 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "161616", AccentColor = "c7e9ff", BackgroundColor = "0a0a0a", OutlineColor = "232323" },
+            { FontColor = "ffffff", MainColor = "1a1a1d", AccentColor = "9fd6ff", BackgroundColor = "0d0d0f", OutlineColor = "26262b" },
         },
         ["Monokai"] = {
             2,
             { FontColor = "f8f8f2", MainColor = "272822", AccentColor = "f92672", BackgroundColor = "1e1f1c", OutlineColor = "49483e" },
         },
-        ["Solarized"] = {
+        ["OldDefault"] = {
             3,
-            { FontColor = "839496", MainColor = "073642", AccentColor = "cb4b16", BackgroundColor = "002b36", OutlineColor = "586e75" },
+            { FontColor = "ffffff", MainColor = "161616", AccentColor = "c7e9ff", BackgroundColor = "0a0a0a", OutlineColor = "232323" },
         },
         ["Material"] = {
             4,
