@@ -1,6 +1,3 @@
--- checkbox color changes with accent & window icon
--- i chnaged a bunch of random shit to do this
---9
 local cloneref = (cloneref or clonereference or function(instance: any)
     return instance
 end)
@@ -87,7 +84,7 @@ local Library = {
         OutlineColor = Color3.fromRGB(35, 35, 35),
         FontColor = Color3.fromRGB(255, 255, 255),
 
-        Font = Font.fromEnum(Enum.Font.Gotham),
+        Font = Font.fromEnum(Enum.Font.BuilderSans),
 
         Red = Color3.fromRGB(255, 50, 50),
         Dark = Color3.new(0, 0, 0),
