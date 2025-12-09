@@ -18,6 +18,11 @@ then
 
 if not game:IsLoaded() then game.Loaded:Wait() end
 
+if not isfolder("ERLChook") then makefolder("ERLChook") end
+if not isfolder("ERLChook/configs") then makefolder("ERLChook/configs") end
+if not isfolder("ERLChook/settings") then makefolder("ERLChook/settings") end
+if not isfolder("ERLChook/assets") then makefolder("ERLChook/assets") end
+
 --// is already loaded
 if getgenv().ERLChookloaded then 
     game.StarterGui:SetCore("SendNotification", {Title = "ERLChook",Text = "The script is already loaded!",Duration = 5,})
