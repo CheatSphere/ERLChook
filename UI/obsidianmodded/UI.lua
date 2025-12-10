@@ -1,4 +1,4 @@
---// Window:SetSidebarWidth(num) remove when switching to this one
+--// Window:SetSidebarWidth(135) remove when switching to this one
 --// line 6132 is the window icon/title shit
 --// line 6000 controls tab stuff when changing, i left understandable notes dont just blindly change
 
@@ -5588,7 +5588,7 @@ function Library:Notify(...)
     local Info = select(1, ...)
 
     if typeof(Info) == "table" then
-        Data.Title = tostring(Info.Title)
+        Data.Title = tostring(Info.Title)  or "DropHook" -- also change "Data.Title = "DropHook" below to remove/change default notif text
         Data.Description = tostring(Info.Description)
         Data.Time = Info.Time or 5
         Data.SoundId = Info.SoundId
@@ -5596,6 +5596,7 @@ function Library:Notify(...)
         Data.Persist = Info.Persist
     else
         Data.Description = tostring(Info)
+        Data.Title = "DropHook"
         Data.Time = select(2, ...) or 5
         Data.SoundId = select(3, ...)
     end
