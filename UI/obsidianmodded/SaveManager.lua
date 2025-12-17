@@ -1,3 +1,4 @@
+-- pcalled some shit
 local cloneref = (cloneref or clonereference or function(instance: any)
     return instance
 end)
@@ -166,7 +167,9 @@ local SaveManager = {} do
             local str = paths[i]
             if isfolder(str) then continue end
 
-            makefolder(str)
+            pcall(function()
+                makefolder(str)
+            end)
         end
     end
 
@@ -185,12 +188,16 @@ local SaveManager = {} do
 
     function SaveManager:SetFolder(folder)
         self.Folder = folder
-        self:BuildFolderTree()
+        pcall(function()
+            self:BuildFolderTree()
+        end)
     end
 
     function SaveManager:SetSubFolder(folder)
         self.SubFolder = folder
-        self:BuildFolderTree()
+        pcall(function()
+            self:BuildFolderTree()
+        end)
     end
 
     --// Save, Load, Delete, Refresh \\--
@@ -230,7 +237,14 @@ local SaveManager = {} do
             return false, "failed to encode data"
         end
 
-        writefile(fullPath, encoded)
+        local success = pcall(function()
+            writefile(fullPath, encoded)
+        end)
+
+        if not success then
+            return false, "failed to write file"
+        end
+
         return true
     end
 
