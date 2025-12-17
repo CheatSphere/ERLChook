@@ -1,4 +1,5 @@
--- theme changes, new default theme, and pcalled some stuff that will ban if used weird
+-- theme changes, new default theme, and pcalled some stuff that will ban if used wrong
+--2
 local cloneref = (cloneref or clonereference or function(instance: any)
     return instance
 end)
@@ -50,25 +51,25 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
+            { FontColor = "ffffff", MainColor = "141414", AccentColor = "ffa981", BackgroundColor = "0a0a0a", OutlineColor = "212121" },
+        },
+        ["ReDefault"] = {
+            2,
             { FontColor = "ffffff", MainColor = "1d1c1a", AccentColor = "ffddb9", BackgroundColor = "0f0e0d", OutlineColor = "2b2926" },
         },
-        ["DefaultBlue"] = {
-            2,
+        ["ReDefaultBlue"] = {
+            3,
             { FontColor = "ffffff", MainColor = "1a1a1d", AccentColor = "9fbaff", BackgroundColor = "0d0d0f", OutlineColor = "26262b" },
         },
-        ["DefaultPurple"] = {
-            3,
+        ["ReDefaultPurple"] = {
+            4,
             { FontColor = "ffffff", MainColor = "1c1a1d", AccentColor = "c99fff", BackgroundColor = "0e0d0f", OutlineColor = "28262b" },
         },
-        ["DefaultRed"] = {
-            4,
+        ["ReDefaultRed"] = {
+            5,
             { FontColor = "ffffff", MainColor = "1d1a1a", AccentColor = "ff9393", BackgroundColor = "0f0d0d", OutlineColor = "2b2626" },
         },
-        ["OldDefault"] = {
-            5,
-            { FontColor = "ffffff", MainColor = "161616", AccentColor = "c7e9ff", BackgroundColor = "0a0a0a", OutlineColor = "232323" },
-        },
-        ["Cherryy"] = {
+        ["Cherry"] = {
             6,
             { FontColor = "eeffff", MainColor = "212121", AccentColor = "ffc2c2", BackgroundColor = "151515", OutlineColor = "2d2d2d" },
         }
