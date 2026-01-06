@@ -1,6 +1,6 @@
-# DropHook
+# JewHack
 
-DropHook is a roblox script for the roblox game Emergency Response: Liberty County managed by Miwowa1337, and owned by CSphere
+JewHack (formerly drophook) is a roblox script for the roblox game Emergency Response: Liberty County managed by Miwowa1337, and owned by CSphere
 
 ## Changelogs
 
@@ -14,8 +14,8 @@ Ownership: CheatSphere/CSphere
 
 Help with code, ESP: c-28/prawl.dev
 
-Original ui lib (DropHook uses a modded version of it): Obsidian https://github.com/deividcomsono/Obsidian
+Original ui lib (JewHack uses a modded version of it): Obsidian https://github.com/deividcomsono/Obsidian
 
 ## Loadstring
 
-You can find the loadstring at: https://raw.githubusercontent.com/CheatSphere/DropHook/refs/heads/main/loadstring.txt
+You can find the loadstring at: https://raw.githubusercontent.com/CheatSphere/JewHack/refs/heads/main/loadstring.txt
